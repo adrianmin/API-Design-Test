@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/payee/{payeeId}" path="/payee/{payeeId}" id="cda557db-0b03-48c2-a291-7a6c6d0a134e" xmlns:con="http://eviware.com/soapui/config"><con:settings id="3584f8bb-75f7-4bf9-abe4-b0d56bdd484b"><con:setting id="cda557db-0b03-48c2-a291-7a6c6d0a134efileName">%2Fpayee%2F%7BpayeeId%7D</con:setting></con:settings><con:parameters/><con:method name="GET" id="400ffce8-5ac8-4d5d-b3cb-4b23c3bef9a3" method="GET"><con:description>Ability to return details of specific payees using ID's</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>payeeId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:description>successful operation</con:description><con:sampleContent>{&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "accountName" : "string",&#13;
+  "iban" : "string",&#13;
+  "bankAccountCurrency" : "string",&#13;
+  "bankName" : "string"&#13;
+}</con:sampleContent></con:representation><con:request name="Request 1" id="a390a7f7-3c7f-438f-884c-74d293e26bf5" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://virtserver.swaggerhub.com/Adrians_Org/Payees_API/1.2.0</con:endpoint><con:request/><con:originalUri>https://virtserver.swaggerhub.com/Adrians_Org/Payees_API/1.2.0/payee/1</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><con:entry key="payeeId" value="1"/></con:parameters></con:request></con:method><con:method name="POST" id="16505e44-b974-466d-b22d-12173bf92d63" method="POST"><con:description>Ability to return details of specific payees using ID's</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>payeeId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:description>successful operation</con:description><con:sampleContent>{&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "accountName" : "string",&#13;
+  "iban" : "string",&#13;
+  "bankAccountCurrency" : "string",&#13;
+  "bankName" : "string"&#13;
+}</con:sampleContent></con:representation><con:request name="Request 1" id="fb2f349c-8609-4b83-9cd1-581c5c69b596" mediaType="application/json"><con:settings/><con:endpoint>https://virtserver.swaggerhub.com/Adrians_Org/Payees_API/1.2.0</con:endpoint><con:parameters/></con:request></con:method><con:method name="DELETE" id="0e32a00d-a3d0-4dcc-b673-20d7f762d232" method="DELETE"><con:description>Ability to return details of specific payees using ID's</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>payeeId</con:name><con:style>TEMPLATE</con:style></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:description>successful operation</con:description><con:sampleContent>{&#13;
+  "firstName" : "string",&#13;
+  "lastName" : "string",&#13;
+  "accountName" : "string",&#13;
+  "iban" : "string",&#13;
+  "bankAccountCurrency" : "string",&#13;
+  "bankName" : "string"&#13;
+}</con:sampleContent></con:representation><con:request name="Request 1" id="38dfa023-89bb-46f7-9900-bfd30062907a" mediaType="application/json"><con:settings/><con:endpoint>https://virtserver.swaggerhub.com/Adrians_Org/Payees_API/1.2.0</con:endpoint><con:parameters/></con:request></con:method></con:resource>
