@@ -13,7 +13,7 @@
     "/payee/{payeeId}" : {
       "get" : {
         "summary" : "Find payee by ID",
-        "description" : "Ability to return details of specific payees using ID's",
+        "description" : "Ability to return details of specific payees using ID's Test Sample",
         "operationId" : "getPayee",
         "parameters" : [ {
           "name" : "payeeId",
